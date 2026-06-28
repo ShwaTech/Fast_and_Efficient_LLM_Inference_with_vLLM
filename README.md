@@ -1,2 +1,16 @@
-# -Fast_-_Efficient_LLM_Inference_with_vLLM
-Completed an end-to-end LLM inference optimization workflow by quantizing a Qwen model with LLM Compressor, serving it with vLLM, and benchmarking performance using GuideLLM and lm-eval to optimize latency, throughput, memory usage, and accuracy.
+# 🚀 Fast & Efficient LLM Inference with vLLM
+
+Optimize, deploy, and benchmark Large Language Models using LLM Compressor, vLLM, GuideLLM, and lm-eval.
+
+## Create a Conda Environment and  Install The Requirements
+
+```bash
+# Create Conda Evnironment
+conda create -n "LLM-Inference-env" python=3.11 -y
+
+# Activate Conda Evnironment
+conda activate LLM-Inference-env
+
+# Install The Requirements
+pip install -r requirements.txt
+```
