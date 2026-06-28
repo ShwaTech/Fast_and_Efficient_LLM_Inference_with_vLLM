@@ -3,3 +3,5 @@ llmcompressor
 compressed-tensors
 datasets
 torch
+
+requests
