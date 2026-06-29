@@ -69,8 +69,6 @@ Full Precision Qwen Model
 
 ---
 
----
-
 ## ⚡ Technologies Used
 
 | Technology     | Purpose                      |
@@ -81,7 +79,7 @@ Full Precision Qwen Model
 | vLLM           | High-performance LLM Serving |
 | GuideLLM       | Load Testing                 |
 | lm-eval        | Model Evaluation             |
-| Groq API       | Client Interface             |
+| OpenAI API     | Client Interface             |
 
 ---
 
@@ -184,8 +182,6 @@ Evaluation focuses on:
 * Accuracy
 * Language Understanding
 * General Performance
-
----
 
 ---
 

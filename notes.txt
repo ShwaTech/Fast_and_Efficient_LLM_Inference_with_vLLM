@@ -17,3 +17,6 @@ export VLLM_CPU_KVCACHE_SPACE=1
 
 # Serve
 vllm serve Qwen/Qwen3-0.6B --dtype=bfloat16 --max-model-len 4096
+
+# If your PC has Week Hardware Try this:
+vllm serve Qwen/Qwen3-0.6B --dtype=float32 --max-model-len 1024 --enforce-eager --gpu-memory-utilization 0.4
