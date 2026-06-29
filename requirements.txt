@@ -5,3 +5,7 @@ datasets
 torch
 
 requests
+openai
+
+guidellm
+lm_eval[api]
