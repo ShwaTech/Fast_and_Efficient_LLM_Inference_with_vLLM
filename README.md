@@ -69,6 +69,39 @@ Full Precision Qwen Model
 
 ---
 
+## 📂 Project Structure
+
+```text
+Fast_and_Efficient_LLM_Inference_with_vLLM/
+│
+├── models/
+│   ├── Qwen3-0.6B/                 # Original full-precision Qwen model
+│   └── Qwen3-0.6B-W4A16/           # Quantized Qwen model (W4A16)
+│
+├── notebooks/
+│   ├── outputs/
+│   │   ├── benchmarks.csv          # Benchmark results
+│   │   ├── benchmarks.json         # Benchmark metrics (JSON)
+│   │   └── metrics_snapshot.json   # vLLM runtime metrics
+│   │
+│   ├── 01_LLM_Compressor.ipynb
+│   │   # Quantize the Qwen model using LLM Compressor
+│   │
+│   ├── 02_Serving_LLM_with_vLLM.ipynb
+│   │   # Deploy and serve the quantized model with vLLM
+│   │
+│   └── 03_Benchmarking_and_Evaluation.ipynb
+│       # Benchmark performance with GuideLLM and evaluate using lm-eval
+│
+├── .gitignore                      # Git ignore rules
+├── LICENSE                         # Project license
+├── notes.txt                       # Personal notes and observations
+├── README.md                       # Project documentation
+└── requirements.txt                # Python dependencies
+```
+
+---
+
 ## ⚡ Technologies Used
 
 | Technology     | Purpose                      |
